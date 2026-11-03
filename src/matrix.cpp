@@ -1,3 +1,5 @@
+#include <string.h>
+
 #include "../include/matrix.h"
 
 #include <algorithm>

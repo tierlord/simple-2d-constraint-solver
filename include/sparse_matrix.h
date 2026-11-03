@@ -261,8 +261,8 @@ namespace atg_scs {
                 }
             }
 
-            __forceinline int getWidth() const { return m_width; }
-            __forceinline int getHeight() const { return m_height; }
+            inline int getWidth() const { return m_width; }
+            inline int getHeight() const { return m_height; }
 
         protected:
             double **m_matrix;
